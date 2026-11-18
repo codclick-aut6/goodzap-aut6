@@ -3,8 +3,8 @@ import { createClient } from '@supabase/supabase-js';
 import type { Database } from './types';
 import { brokeredPreviewStorage } from './previewAuthStorage';
 
-const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
-const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+const SUPABASE_URL="https://fwgvekijxnyxuqobaohs.supabase.co";
+const SUPABASE_PUBLISHABLE_KEY="sb_publishable_qULE39gYzyH_mz-wrv4gOA_ZBe6HPpn";
 
 // Import the supabase client like this:
 // import { supabase } from "@/integrations/supabase/client";
